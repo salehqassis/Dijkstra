@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>edu.bethlehem</groupId>
+  <artifactId>Graph</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Graph</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+  
+  <dependency>
+    <groupId>mil.nga.sf</groupId>
+    <artifactId>sf-geojson</artifactId>
+    <version>2.0.3</version>
+</dependency>
+  
+  
+  <!-- https://mvnrepository.com/artifact/org.geotools/gt-main -->
+		<!-- https://mvnrepository.com/artifact/nl.cloudfarming.client/lib-geotools -->
+	        <dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-databind</artifactId>
+		<version>2.9.4</version>
+	        </dependency>
+	
+		<dependency>
+			<groupId>nl.cloudfarming.client</groupId>
+			<artifactId>lib-geotools</artifactId>
+			<version>2.7.7-NB72</version>
+		</dependency>
+	</dependencies>
+</project>
